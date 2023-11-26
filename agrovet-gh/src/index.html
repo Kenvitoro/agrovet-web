@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/agrovet-svg.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Agrovet Nicarao S.A</title>
+    <link rel="stylesheet" href="./estilos.css">
+  </head>
+  
+  <body>
+
+      <a class="whatsapp-icon" target="_blank" href="https://api.whatsapp.com/send?phone=50586889162">
+        <img src="../public/LogosWhatsappIcon.svg" alt="whatsappIcon">
+      </a>
+
+    <header id="home" class="header">
+      <nav class="menu">
+        <div>
+          <img src="../public/agrovet-logo.jpeg" alt="logo-agrovet" class="logo">
+        </div>
+        <div class="links">
+          <div  class="responsive-menu-close"> <img src="../public/closeMenu.svg" alt="close-menu"></div>
+          <a class="link" href="#home">Inicio</a>
+          <a class="link" href="#introduccion">¿Quiénes somos?</a>
+          <a class="link" href="#productos">¿Qué ofrecemos?</a>
+          <a class="link" href="#nosotros">Sobre nosotros</a>
+          <a class="link" href="#contacto">Contáctanos</a>
+        </div>
+        <div class="responsive-menu">
+          <img src="../public/hamMenu.svg" alt="menu">
+        </div>
+
+      </nav>
+
+      <div class="enterprise-tittle">
+        <h1>AGROVET<span>NICARAO S.A.</span></h1>
+        <h2>“20 años cultivando el éxito junto a nuestros clientes”</h2>
+
+      </div>
+
+      <div class="video-overlay">
+        <video muted autoplay loop poster="../public/arrozPoster.png" class="video-header">
+          
+          <source src="../public/arrozVideo.mp4" type="video/mp4">
+        
+        </video>
+      </div>
+    </header>
+
+
+
+    <main>
+
+
+      <section id="introduccion" class="Quienes-somos">
+        <div data-aos="fade-right" class="Quienes-somos_description">
+          <h2>¿Quiénes somos?</h2>
+
+          <div class="line"></div>
+
+          <p>“Somos una empresa líder en la venta de agroquímicos de alta calidad para la protección y el cuidado de los cultivos.</p>
+
+          <p> Ofrecemos una amplia variedad de productos que van desde herbicidas, insecticidas y fungicidas, hasta fertilizantes y otros productos de nutrición vegetal.</p>
+
+          <p>Nos enfocamos en Brindar soluciones integrales a nuestros clientes, desde asesoramiento técnico especializado hasta un amplio portafolio de productos para satisfacer las necesidades específicas de cada cultivo y productor.</p>
+
+          <p>Nuestros productos están diseñados para mejorar la calidad y la cantidad de la cosecha, a la vez que protegen la salud. del suelo y del medio ambiente”.</p>
+        
+          
+        </div>
+        <div data-aos="fade-left" class="Quienes-somos_image_container">
+            <div class="image-container">
+                <div class="image-name">
+                  <h4>Gerente general</h4>
+                  <h3>Roberto Marenco</h3>
+                </div>
+                <img loading="lazy" src="../public/gerente-general.jpg" alt="gerente-general">
+            </div>
+            
+          <div class="sphere-container">
+              <div class="sphere"><p>+20 años de experiencia</p></div>
+              <div class="sphere"><p>Profesionales en el area</p></div>
+              <div class="sphere"><p>Clientes satisfechos</p></div>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+      <section id="productos" class="Que-ofrecemos">
+
+        <div class="Que-ofrecemos_image_container">
+            <h2 ><span data-aos="fade-up">¿Qué ofrecemos?</span></h2>
+        </div>
+
+        <div class="Que-ofrecemos_description">
+          <div>
+            <img loading="lazy"  data-aos="fade-up" src="../public/check.svg" alt="check-icon">
+            <h3 data-aos="fade-up">Nos enfocamos en brindar productos para mejorar tus cultivos, asi como asesoramiento para cada caso particular para el mejoramiento del desarrollo de tus cultivos</h3>
+          </div>
+          
+          <div class="Que-ofrecemos_icons_container">
+
+            <div data-aos="fade-right">
+              <section class="icon-container">
+                <img loading="lazy"  class="Que-ofrecemos_icon" src="../public/fertilizante.svg"  alt="fertilizante">
+                <h4>Fertilizantes</h4>
+              </section>
+              <p>Optimiza el crecimiento y la calidad de tus cultivos con nuestros fertilizantes personalizados, diseñados para satisfacer sus necesidades nutricionales.</p>
+            </div>
+
+            <div data-aos="fade-right">
+              <section class="icon-container">
+                <img loading="lazy"  class="Que-ofrecemos_icon" src="../public/bactericida.svg" alt="bactericida">
+                <h4>Bactericidas</h4>
+              </section>
+              <p>Protege tus cultivos de bacterias dañinas con nuestros bactericidas de vanguardia, manteniendo tus plantas fuertes y resistentes.</p>
+            </div>
+            
+            <div data-aos="fade-right">
+              <section class="icon-container">
+                <img loading="lazy"  class="Que-ofrecemos_icon" src="../public/fungicida.svg" alt="fungicida">
+                <h4>Fungicidas</h4>
+              </section>
+              <p>Nuestros fungicidas de alta calidad son tu defensa contra enfermedades fúngicas, asegurando cosechas sanas y productivas.</p>
+            </div>
+
+            <div data-aos="fade-right">
+              <section class="icon-container">
+                <img loading="lazy" class="Que-ofrecemos_icon" src="../public/bactericida-fungicida.svg" alt="bactericida-fungicida">
+                <h4>bactericidas y fungicidas</h4>
+              </section>
+              <p>Nuestra solución integral mantendra tus cultivos saludables y resistentes contra múltiples amenazas con nuestra fórmula avanzada de bactericidas y fungicidas.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+
+      <section id="nosotros" class="Sobre-nosotros">
+
+
+        <article data-aos="fade-up" class="Sobre-nosotros_titulo">
+          <div>
+            <div class="green-line"></div>
+            <h3>Conócenos</h3>
+            <h4>Contamos con profecionales altamente capacitados</h4>
+          </div>
+        </article>
+
+
+        <article class="Sobre-nosotros_intermedio">
+          <div data-aos="fade-up">
+            Agrovet Nicarao S.A es distribuidora de agroquímicos, enfocados en brindar servicio a pequeños distribuidores de nuestro producto asi como directamente a productores agricolas.
+          </div>
+        </article>
+
+
+        
+        <article  class="Sobre-nosotros_final">
+          <div data-aos="fade-up" class="Sobre-nosotros_final_mision">
+            <div>
+              <h3>Mision</h3>
+              <p>En Agrovet Nicarao nuestra misión es impulsar el crecimiento y el éxito sostenible de nuestros clientes en el sector agrícola a través de soluciones innovadoras en agroquímicos. Como una empresa en constante crecimiento, estamos comprometidos con la excelencia y la colaboración con nuestros clientes para prosperar juntos en un mundo agrícola en evolución.</p>
+            </div>
+          </div>
+          <div data-aos="fade-up" class="Sobre-nosotros_final_vision">
+              <div>
+                <h3>Vision</h3>
+                <p>En Agrovet Nicarao nuestra misión es impulsar el crecimiento y el éxito sostenible de nuestros clientes en el sector agrícola a través de soluciones innovadoras en agroquímicos. Como una empresa en constante crecimiento, estamos comprometidos con la excelencia y la colaboración con nuestros clientes para prosperar juntos en un mundo agrícola en evolución.</p>
+              </div>
+          </div>
+        </article>
+      </section>
+
+
+      <section id="contacto" class="Contactanos">
+              
+        
+        <div data-aos="fade-up" id="map"></div>
+              
+        <div class="formulario">
+              <div>
+                <form id="formulario" data-aos="fade-right">
+                  <input  id="nombre" type="text" name="nombre" placeholder="Escribe tus nombres y apellidos" pattern="^[A-Za-záéíóúüñÁÉÍÓÚÜÑ\s]+$" title="nombre sólo acepta letras y espacios en blanco" required="">
+                  <input id="cedula" type="text" name="cedula" placeholder="Número de cédula" pattern="^[A-Za-z0-9]{1,14}$" title="este campo solo acepta numeros y letras, 14 digitos" required> 
+                  <input id="numero" type="text" name="numero" placeholder="Número de teléfono" pattern="^\d{1,8}$" title="este campo solo acepta numeros, 8 digitos" required>
+                  <textarea id="comentario" name="comentario" cols="30" rows="8" placeholder="Para mayor facilidad de cotización proporcionar datos como la ubicación del terreno y su tamaño" title="Compartenos tu duda" required ></textarea>
+                  <button id="submit" type="submit">Enviar</button>
+                </form>
+
+                <article data-aos="fade-left">
+                  <div>
+                    <img loading="lazy"  src="../public/ubicacion2.svg" alt="ubicacion-icono">
+                    <p>Casa numero 90, del parqueo del colegio Hispano Nicaragüense, 150 mts. al oeste. Reparto Mirador de Santo Domingo, Santo Domingo, Nicaragua</p>
+                  </div>
+
+                  <div>
+                    <img loading="lazy"  src="../public/telefono-icon.svg" alt="telefono-icono">
+                    <p>+505 8688-9162</p>
+                  </div>
+                  
+                  <div>
+                    <img loading="lazy"  src="../public/horario-icon.svg" alt="horario-icono">
+                    <p>Lunes a Viernes de 8:30am - 5:00pm / Sabado de 8:30am - 12:00pm</p>
+                  </div>
+                </article>
+              </div>
+
+              </div>
+
+      </section>
+
+    </main>
+
+
+    <!--##############################CDNS##############################-->
+
+    <!----------------------- Map ------------------------------->
+ 
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+    <!----------------------- AOS scroll animation ------------------------------->
+     
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-----------------------  EMAILJS ------------------------------->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!-----------------------  INDEX ------------------------------->
+
+    <script src="./index.js"></script>
+
+    <!--##############################CDNS##############################-->
+
+  </body>
+</html>
